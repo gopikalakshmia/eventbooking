@@ -20,7 +20,7 @@ export default  async function Home() {
 
   return (
     <div className=" items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-    <h1>{data.eventName}</h1>
+    <h1>{data.eventName} Event</h1>
     <p>{data.eventDescription.content.map((item)=>item.content[0].value)}</p>
     </div>
   );
